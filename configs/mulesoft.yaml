@@ -5,7 +5,10 @@ users:
 apps:
   - name: clivet-proc-employees
     buildCommand: mavenBuildAndDeployCH2
+    repoUrl: https://bitbucket.org/florencedev/clivet-proc-employees.git
   - name: clivet-sys-sapsf
     buildCommand: mavenBuildAndDeployCH2
+    repoUrl: https://bitbucket.org/florencedev/clivet-sys-sapsf.git
   - name: clivet-sys-oracle
     buildCommand: mavenBuildAndDeployCH2
+    repoUrl: https://bitbucket.org/florencedev/clivet-sys-oracle.git
