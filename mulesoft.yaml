@@ -1,0 +1,11 @@
+project: mulesoft
+users:
+  - id: gbartoloni
+    privileged: true
+apps:
+  - name: clivet-proc-employees
+    buildCommand: mavenBuildAndDeployCH2
+  - name: clivet-sys-sapsf
+    buildCommand: mavenBuildAndDeployCH2
+  - name: clivet-sys-oracle
+    buildCommand: mavenBuildAndDeployCH2
