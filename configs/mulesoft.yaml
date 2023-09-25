@@ -5,4 +5,4 @@ users:
 apps:
   - name: fcg-mule-test
     buildCommand: mavenBuildAndDeployCH2
-    repoUrl: https://github.com/gbartoloni-florence/fcg-mule-test.git
+    repoUrl: https://github.com/jenkinsci/job-dsl-plugin.git
