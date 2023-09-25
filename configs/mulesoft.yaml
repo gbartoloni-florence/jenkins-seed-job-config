@@ -5,4 +5,4 @@ users:
 apps:
   - name: fcg-mule-test
     buildCommand: mavenBuildAndDeployCH2
-    repoUrl: https://github.com/gbartoloni-florence/fcg-mule-test
+    repoUrl: https://github.com/gbartoloni-florence/fcg-mule-test.git
