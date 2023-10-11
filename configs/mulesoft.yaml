@@ -3,8 +3,10 @@ users:
   - id: gbartoloni
     privileged: true
 apps:
-  - name: fcg-mule-test
+  - name: clivet-proc-employees
     buildCommand: mavenBuildAndDeploy
     repoUrl: https://bitbucket.org/edpclivet/clivet-proc-employees.git
     credentialsId: workspace-token
+    parameters:
+      MAVEN_SETTINGS: clivet-maven-settings
 sharedLibraryVersion: main
