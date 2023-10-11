@@ -5,5 +5,12 @@ users:
 apps:
   - name: fcg-mule-test
     buildCommand: mavenBuildAndDeployCH2
-    repoUrl: https://github.com/gbartoloni-florence/fcg-mule-test.git
+    repoUrl: https://bitbucket.org/edpclivet/clivet-proc-employees.git
+    credentialsId: workspace-token
 sharedLibraryVersion: main
+anypoint:
+  clientId: ${AP_CA_CLIENT_ID}
+  secret: ${AP_CA_CLIENT_SECRET}
+secrets: 
+  AP_CA_CLIENT_ID: test_ap_ca_client_id
+  AP_CA_CLIENT_SECRET: test_ap_ca_client_secret
